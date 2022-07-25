@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CasaDoCodigo", "CasaDoCodigo\CasaDoCodigo.fsproj", "{0B3C7651-DCCE-4562-A2AC-E7BF9731FC54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaCodigo", "CasaCodigo\CasaCodigo.csproj", "{0EE8E663-8572-4698-9DD9-24DE27AB5125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{DD6BD612-654B-4880-96F2-32F5C6BA4F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B3C7651-DCCE-4562-A2AC-E7BF9731FC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B3C7651-DCCE-4562-A2AC-E7BF9731FC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B3C7651-DCCE-4562-A2AC-E7BF9731FC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B3C7651-DCCE-4562-A2AC-E7BF9731FC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE8E663-8572-4698-9DD9-24DE27AB5125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE8E663-8572-4698-9DD9-24DE27AB5125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE8E663-8572-4698-9DD9-24DE27AB5125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE8E663-8572-4698-9DD9-24DE27AB5125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6BD612-654B-4880-96F2-32F5C6BA4F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6BD612-654B-4880-96F2-32F5C6BA4F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6BD612-654B-4880-96F2-32F5C6BA4F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6BD612-654B-4880-96F2-32F5C6BA4F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
