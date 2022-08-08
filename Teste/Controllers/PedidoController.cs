@@ -1,12 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Teste.Repositories;
 
 namespace Teste.Controllers
 {
     public class PedidoController : Controller
     {
+        private readonly IProdutoRepository produtoRepository;
+
+        public PedidoController(IProdutoRepository produtoRepository)
+        {
+            this.produtoRepository = produtoRepository;
+        }
+
         public IActionResult Carrossel()
         {
-            return View();
+            return View(produtoRepository.GetProdutos());
         }
         public IActionResult Carrinho()
         {
